@@ -1,4 +1,3 @@
-torch
 flask
 requests
 gevent

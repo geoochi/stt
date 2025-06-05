@@ -1,8 +1,6 @@
 import logging
 import re
 import threading
-import sys
-import torch
 from flask import Flask, request, render_template, jsonify, send_from_directory
 import os
 from gevent.pywsgi import WSGIServer, WSGIHandler, LoggingLogAdapter
